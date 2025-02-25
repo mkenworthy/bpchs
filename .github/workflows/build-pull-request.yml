@@ -16,7 +16,7 @@ jobs:
 
       - name: Build the article PDF
         id: build
-        uses: showyourwork/showyourwork-action@v1
+        uses: HealthyPear/showyourwork-action@update-artifact-action
         env:
           SANDBOX_TOKEN: ${{ secrets.SANDBOX_TOKEN }}
           OVERLEAF_EMAIL: ${{ secrets.OVERLEAF_EMAIL }}
